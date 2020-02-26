@@ -9,10 +9,12 @@
     "now-start": "next start"
   },
   "dependencies": {
-    "@blitzjs/core": "*",
     "@prisma/client": "2.0.0-alpha.836",
     "next": "9.2.3-canary.13",
     "next-transpile-modules": "3.0.2",
+    "permit-params": "1.0.0",
+    "pretty-ms": "6.0.0",
+    "prisma2": "2.0.0-alpha.833",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "tailwindcss": "1.2.0"

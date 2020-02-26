@@ -1,4 +1,4 @@
-import {Controller} from '@blitzjs/core'
+import {Controller} from '../dist'
 
 export const PostsController = Controller(({db}) => ({
   name: 'PostsController',
@@ -23,7 +23,8 @@ export const PostsController = Controller(({db}) => ({
 
   async create(params, newData) {
     const data = await db.post.create({
-      data: newData,
+      // TODO FIX THIS TYPE
+      data: newData as any,
     })
 
     return {

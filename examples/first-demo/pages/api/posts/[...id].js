@@ -1,4 +1,4 @@
-import {harnessController} from '@blitzjs/core'
+import {harnessController} from '../../../dist'
 import {PostsController} from '../../../controllers/posts'
 
 export default harnessController(PostsController)

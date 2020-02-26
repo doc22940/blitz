@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import {harnessServerProps} from '@blitzjs/core'
+import {harnessServerProps} from '../../dist'
 import {PostsController} from '../../controllers/posts'
 
 export const unstable_getServerProps = harnessServerProps(PostsController)

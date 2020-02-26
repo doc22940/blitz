@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import {Form} from '@blitzjs/core'
+import {Form} from '../../dist'
 
 export default Page
 function Page() {
